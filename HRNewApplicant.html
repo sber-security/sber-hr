@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HRNewApplicant</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-group">
+        <div class="header__logo">
+          <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+        </div>
+        <div class="navigation">
+          <p><a href="UserPage.html">Вакансии</a></p>
+          <p><a href="responce.html">Отклики</a></p>
+          <p><a href="responce.html">Кандидаты</a></p>
+        </div>
+      </div>
+      <div class="userNav">
+        <a class="hashtag">
+          <img class="icon__img" src="./img/marker.svg" alt="city" />
+          Нижний Новгород</a
+        >
+        <p><a href="UserPage.html">UserName</a></p>
+        <button class="btn btn__second" type="submit">Выход</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <div class="block">
+            <h1 class="block__title">Требования к кандидату</h1>
+            <div class="block-column">
+              <div class="column-group">
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Пол сотрудника</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Создание"
+                  >
+                    <option class="text">Мужской</option>
+                    <option class="text">Женский</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Возраст</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="20-40 лет"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Образование</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Создание"
+                  >
+                    <option class="text">Высшее</option>
+                    <option class="text">Неоконченное высшее</option>
+                    <option class="text">Среднее профессиональное</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Желаемый опыт работы</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Создание"
+                  >
+                    <option class="text">до 1 года</option>
+                    <option class="text">от 1 до 3 лет</option>
+                    <option class="text">более 3-х лет</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Должность</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Старший специалист"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Сфера</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Экономическая безопасность"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Компания</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder='ПАО "Сбербанк"'
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Стаж работы в данной должности
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="3 года"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Навыки</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Пользователь ПК, ведение переговоров"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Знание иностранного языка</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Английский, А2"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Личностные требования (психологическая характеристика)
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Пунктуальность, ответственность"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Дополнительные требования</h3>
+                  <textarea
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                  ></textarea>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Контактные данные</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="+7 (901) 234-56-78"
+                  />
+                </div>
+              </div>
+              <button class="btn btn__prime">Сохранить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+      </div>
+      <div class="link__group">
+        <p>
+          <a class="footer__link" href="processingPolicy.html"
+            >Политика обработки данных</a
+          >
+        </p>
+        <p>
+          <a class="footer__link" href="cookies.html"
+            >Политика использования cookies</a
+          >
+        </p>
+        <p class="footer__link">2023 ПАО "Сбербанк"</p>
+      </div>
+    </footer>
+  </body>
+</html>

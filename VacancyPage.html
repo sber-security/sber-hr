@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VacancyPage</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-group">
+        <div class="header__logo">
+          <a href="./index.html">
+            <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+          </a>
+        </div>
+        <div class="navigation">
+          <p><a href="VacancySearch.html">Вакансии</a></p>
+          <p><a href="HRSummaryPage.html">Мои отклики</a></p>
+        </div>
+      </div>
+      <div class="userNav">
+        <a class="hashtag">
+          <img class="city__img" src="./img/marker.svg" alt="city" />
+          <span class="text point">Нижний Новгород</span>
+        </a>
+        <p><a href="SummaryPage.html">UserName</a></p>
+        <button class="btn btn__second" type="submit">Выход</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section vacancy">
+        <div class="container">
+          <div class="block block__vacancy">
+            <div class="cards__column">
+              <div class="card__search">
+                <h2 class="block__title">Клиентский менеджер</h2>
+                <div class="line-group">
+                  <a class="hashtag">
+                    <img class="grade__img" src="./img/grade.svg" alt="grade" />
+                    Грейд</a
+                  >
+                  <a class="hashtag">
+                    <img class="city__img" src="./img/marker.svg" alt="city" />
+                    Нижний Новгород</a
+                  >
+                  <a class="hashtag">
+                    <img
+                      class="schedule__img"
+                      src="./img/alarmclock.svg"
+                      alt="clock"
+                    />
+                    Полный рабочий день</a
+                  >
+                </div>
+                <div class="line-group">
+                  <button class="btn btn__prime">Откликнуться</button>
+                  <button class="btn__fav">
+                    <img
+                      class="favorite__img"
+                      src="./img/favorite.svg"
+                      alt="favoriteVacancy"
+                    />
+                  </button>
+                </div>
+              </div>
+              <div class="wrap">
+                <h3 class="card__title">Обязанности</h3>
+                <ul class="wrap">
+                  <li class="list-item">
+                    готовить предложения по оптимальному набору продуктов и
+                    услуг для клиента
+                  </li>
+                  <li class="list-item">предлагать продукты Сбера</li>
+                  <li class="list-item">
+                    взаимодействовать с другими подразделениями и партнерами для
+                    оказания всесторонней поддержки клиентов
+                  </li>
+                </ul>
+              </div>
+              <div class="wrap">
+                <h3 class="card__title">Требования</h3>
+                <ul class="wrap">
+                  <li class="list-item">
+                    высшее образование в сфере финансов или экономики
+                  </li>
+                  <li class="list-item">
+                    опыт работы в сфере продаж инвестиционных продуктов
+                  </li>
+                  <li class="list-item">
+                    опыт работы с автоматизированными банковскими системами
+                  </li>
+                  <li class="list-item">
+                    знание моделей, стандартов, технологий обслуживания и продаж
+                    банковских и инвестиционных продуктов
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section contact">
+        <div class="container__contact">
+          <div class="block-column">
+            <div class="card__contact">
+              <h2 class="card__title-white">Будем на связи</h2>
+              <div class="column-group">
+                <textarea
+                  class="textarea"
+                  placeholder="Сопроводительное писмо или несколько слов о себе"
+                ></textarea>
+                <div class="line-group">
+                  <input
+                    class="checkbox"
+                    type="checkbox"
+                    name="contact__checkbox"
+                  />
+                  <label class="label" for="contact__checkbox"
+                    >Соглашаюсь на обработку персональных данных</label
+                  >
+                </div>
+              </div>
+              <div class="column-group">
+                <button class="btn btn__second">Откликнуться</button>
+                <button class="btn__fav">
+                  <div class="line-group">
+                    <img
+                      class="icon__img"
+                      src="./img/attach.svg"
+                      alt="attach"
+                    />
+                    <a class="label">Прикрепить резюме</a>
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section vacancy">
+        <div class="container">
+          <div class="block">
+            <h2 class="block__title">Похожие вакансии</h2>
+            <div class="cards__row carousel">
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Грейд</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">Нижний Новгород</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Полный рабочий день</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+      </div>
+      <div class="link__group">
+        <p>
+          <a class="footer__link" href="processingPolicy.html"
+            >Политика обработки данных</a
+          >
+        </p>
+        <p>
+          <a class="footer__link" href="cookies.html"
+            >Политика использования cookies</a
+          >
+        </p>
+        <p class="footer__link">2023 ПАО "Сбербанк"</p>
+      </div>
+    </footer>
+  </body>
+</html>

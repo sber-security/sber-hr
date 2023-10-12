@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SummuryPage</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-group">
+        <div class="header__logo">
+          <a href="index.html">
+            <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+          </a>
+        </div>
+        <div class="navigation">
+          <p><a href="VacancySearch.html">Вакансии</a></p>
+          <p><a href="HRSummaryPage.html">Мои отклики</a></p>
+        </div>
+      </div>
+      <div class="userNav">
+        <a class="hashtag">
+          <img class="city__img" src="./img/marker.svg" alt="city" />
+          <span class="text pointer">Нижний Новгород</span>
+        </a>
+        <p><a href="SummaryPage.html">UserName</a></p>
+        <button class="btn btn__second" type="submit">Выход</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section applicant">
+        <div class="container">
+          <div class="card__header">
+            <div class="column-group">
+              <h2 class="card__title-white">Иван Иванович Иванов</h2>
+              <div class="line-group">
+                <button class="btn btn__second">Мое резюме</button>
+                <button class="btn__second btn__circle">
+                  <img
+                    class="icon__img"
+                    src="./img/favorite.svg"
+                    alt="fav__vac"
+                  />
+                </button>
+              </div>
+            </div>
+            <div class="card-s card__interview">
+              <div class="wrap">
+                <div class="card__header">
+                  <h3 class="card__title">Интервью</h3>
+                  <button class="btn__fav">
+                    <img class="icon__img" src="./img/more.svg" alt="info" />
+                  </button>
+                </div>
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+              </div>
+              <div class="line-group">
+                <img class="icon__img" src="./img/favorite.svg" alt="star" />
+                <img class="icon__img" src="./img/favorite.svg" alt="star" />
+                <img class="icon__img" src="./img/favorite.svg" alt="star" />
+                <img class="icon__img" src="./img/favorite.svg" alt="star" />
+                <img class="icon__img" src="./img/favorite.svg" alt="star" />
+              </div>
+              <div class="cards__row">
+                <div class="wrap">
+                  <h2 class="card__title">16:00</h2>
+                  <h3 class="card__title">25.06.2023</h3>
+                </div>
+                <button class="btn btn__second">
+                  SberJuzz
+                  <img class="icon__img" src="./img/Arrow2.svg" alt="arrow" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="block">
+            <div class="block__container">
+              <h2 class="block__title">Мои отклики</h2>
+              <span class="block__all text">Все</span>
+            </div>
+            <div class="cards__row">
+              <div class="card__vcncy">
+                <div class="card__header">
+                  <div class="wrap">
+                    <h3 class="card__title pointer">
+                      Исполнительный директор, исследовательская и аналитическая
+                      деятельность
+                    </h3>
+                    <div class="line-group">
+                      <img
+                        class="icon__img"
+                        src="./img/calendar.svg"
+                        alt="date"
+                      />
+                      <p class="resp__date">Дата отклика</p>
+                      <span class="date">01.06.2023</span>
+                    </div>
+                  </div>
+                  <button class="btn__fav">
+                    <img class="icon__img" src="./img/more.svg" alt="info" />
+                  </button>
+                </div>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <a class="hashtag hashtag__state">
+                      <h3>Тестовое задание</h3>
+                    </a>
+                    <label class="" for="hashtag__state">
+                      Ваше задание проверят до
+                      <span class="date">07.06.2023</span>
+                    </label>
+                  </div>
+                  <button class="btn btn__second">Написать HR</button>
+                </div>
+              </div>
+              <div class="card__vcncy">
+                <div class="card__header">
+                  <div class="wrap">
+                    <h3 class="card__title pointer">
+                      Исполнительный директор, исследовательская и аналитическая
+                      деятельность
+                    </h3>
+                    <div class="line-group">
+                      <img
+                        class="icon__img"
+                        src="./img/calendar.svg"
+                        alt="date"
+                      />
+                      <p class="resp__date">Дата отклика</p>
+                      <span class="date">01.06.2023</span>
+                    </div>
+                  </div>
+                  <button class="btn__fav">
+                    <img class="icon__img" src="./img/more.svg" alt="info" />
+                  </button>
+                </div>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <a class="hashtag hashtag__state">
+                      <h3>Тестовое задание</h3>
+                    </a>
+                    <label class="" for="hashtag__state">
+                      Ваше задание проверят до
+                      <span class="date">07.06.2023</span>
+                    </label>
+                  </div>
+                  <button class="btn btn__second">Написать HR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section vacancy">
+        <div class="container">
+          <div class="block">
+            <h2 class="block__title">Новые вакансии в этом квартале</h2>
+            <div class="cards__row carousel">
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Грейд</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">Нижний Новгород</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Полный рабочий день</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__logo">
+          <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+        </div>
+        <div class="link__group">
+          <p>
+            <a class="footer__link" href="processingPolicy.html"
+              >Политика обработки данных</a
+            >
+          </p>
+          <p>
+            <a class="footer__link" href="cookies.html"
+              >Политика использования cookies</a
+            >
+          </p>
+          <p class="footer__link">2023 ПАО "Сбербанк"</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

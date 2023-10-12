@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Applicant</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-group">
+        <div class="header__logo">
+          <a href="Vacancies.html">
+            <img
+              class="logo__img"
+              href="Vacancies.html"
+              src="./img/sberlogo.svg"
+              alt="sberlogo"
+            />
+          </a>
+        </div>
+        <div class="navigation">
+          <p><a href="VacancySearch.html">Вакансии</a></p>
+          <p><a href="HRSummaryPage.html">Мои отклики</a></p>
+        </div>
+      </div>
+      <div class="userNav">
+        <a class="hashtag hashtag__location pointer">
+          <img class="city__img" src="./img/marker.svg" alt="city" />
+          <span class="text pointer">Нижний Новгород</span>
+        </a>
+        <p><a href="SummaryPage.html">UserName</a></p>
+        <button class="btn btn__exit" type="submit">Выход</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section search">
+        <div class="container">
+          <div class="block-row block__search">
+            <div class="card__search">
+              <h1 class="card__title">Найти вакансию</h1>
+              <form class="wrap">
+                <div class="line-group">
+                  <div class="search__line">
+                    <input
+                      id="search__input"
+                      name="search__input"
+                      class="input search__input"
+                      placeholder="Профессия или навык"
+                    />
+                    <button
+                      class="btn__prime btn__search btn__circle"
+                      type="submit"
+                    >
+                      <img
+                        class="arrow-btn"
+                        src="./img/Arrow1.svg"
+                        alt="arrow"
+                      />
+                    </button>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img
+                      class="favorite__img"
+                      src="./img/favorite.svg"
+                      alt="favoriteVacancy"
+                    />
+                  </button>
+                </div>
+                <label class="search__label" for="search__input"
+                  >Например,
+                  <a href="vacancySearch.html" class="search__link">юрист</a>
+                  или
+                  <a href="vacancySearch.html" class="search__link"
+                    >маркетинг</a
+                  >
+                </label>
+              </form>
+            </div>
+            <div class="card__resp">
+              <img
+                class="img__responce"
+                src="./img/responceActive.svg"
+                alt="responce"
+              />
+              <h3 class="card__title-white">Мои отклики</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section vacancy">
+        <div class="container">
+          <div class="block">
+            <h2 class="block__title">Новые вакансии в этом квартале</h2>
+            <div class="cards__row carousel">
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Грейд</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">Нижний Новгород</span>
+                    </div>
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Полный рабочий день</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+              <div class="card-s">
+                <h3 class="card__title">Старший специалист по взысканию</h3>
+                <div class="cards__row">
+                  <div class="wrap">
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="grade__img"
+                        src="./img/grade.svg"
+                        alt="grade"
+                      />
+                      <span class="text">Grade</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="city__img"
+                        src="./img/marker.svg"
+                        alt="city"
+                      />
+                      <span class="text">City</span>
+                    </div>
+
+                    <div class="hashtag hashtag__tag">
+                      <img
+                        class="schedule__img"
+                        src="./img/alarmclock.svg"
+                        alt="clock"
+                      />
+                      <span class="text">Schedule</span>
+                    </div>
+                  </div>
+                  <button class="btn__second btn__circle">
+                    <img class="arrow" src="./img/Arrow2.svg" alt="link" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section directions">
+        <div class="container">
+          <div class="block-row">
+            <div class="block directions__block-column">
+              <div class="block__header directions__block-header">
+                <h2 class="block__title">Направления</h2>
+                <a class="hashtag hashtag__directions hashtag__location">
+                  <img class="icon" src="./img/marker.svg" />
+                  <span class="text">Нижний Новгород</span>
+                </a>
+              </div>
+              <div class="wrap">
+                <div class="card-s card__directions opsty">
+                  <div class="card__header">
+                    <h3 class="card__title">Экономическая безопасность</h3>
+                    <div class="count">10</div>
+                  </div>
+                </div>
+                <div class="card-s card__directions opsty">
+                  <div class="card__header">
+                    <h3 class="card__title">Комплексная безопасность</h3>
+                    <div class="count">29</div>
+                  </div>
+                </div>
+                <div class="card-s card__directions opsty">
+                  <div class="card__header">
+                    <h3 class="card__title">Физическая охрана</h3>
+                    <div class="count">7</div>
+                  </div>
+                </div>
+                <div class="card-s card__directions opsty">
+                  <div class="card__header">
+                    <h3 class="card__title">Удаленные рабочие места</h3>
+                    <div class="count">13</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="photo-team">
+              <img class="img__photo" src="./img/photo.jpg" alt="team" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+      </div>
+      <div class="link__group">
+        <p>
+          <a class="footer__link" href="processingPolicy.html"
+            >Политика обработки данных</a
+          >
+        </p>
+        <p>
+          <a class="footer__link" href="cookies.html"
+            >Политика использования cookies</a
+          >
+        </p>
+        <p class="footer__link">2023 ПАО "Сбербанк"</p>
+      </div>
+    </footer>
+  </body>
+</html>

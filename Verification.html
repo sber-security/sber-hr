@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authorize</title>
+    <link rel="stylesheet" href="./main.css" />
+    <script defer src="./index.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="block__authorize">
+        <div class="authorize__title">
+          <h1>
+            Карьерные возможности<br />
+            <span>в Службе Безопасности</span>
+          </h1>
+        </div>
+        <form class="authorize__form" id="authorize__form">
+          <div class="authorize__input-wrap">
+            <label class="authorize__label" for="authorize__login">Логин</label>
+            <input
+              id="authorize__login"
+              name="authorize__login"
+              class="input authorize__input"
+              placeholder="20894830"
+            />
+          </div>
+          <div class="authorize__input-wrap">
+            <label class="authorize__label" for="authorize__pass">Пароль</label>
+            <input
+              id="authorize__pass"
+              name="authorize__pass"
+              class="input authorize__input"
+              placeholder="*****"
+            />
+          </div>
+
+          <!-- <input class="authorize__submit" type="submit" value="Войти"> -->
+          <button class="authorize__submit" type="submit">
+            Войти
+            <div class="btn__circle">
+              <img class="arrow-btn" src="./img/Arrow.svg" alt="arrow" />
+            </div>
+          </button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

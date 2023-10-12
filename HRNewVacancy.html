@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HRNewVacancy</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-group">
+        <div class="header__logo">
+          <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+        </div>
+        <div class="navigation">
+          <p><a href="UserPage.html">Вакансии</a></p>
+          <p><a href="responce.html">Отклики</a></p>
+          <p><a href="responce.html">Кандидаты</a></p>
+        </div>
+      </div>
+      <div class="userNav">
+        <a class="hashtag">
+          <img class="icon__img" src="./img/marker.svg" alt="city" />
+          Нижний Новгород</a
+        >
+        <p><a href="UserPage.html">UserName</a></p>
+        <button class="btn btn__second" type="submit">Выход</button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <div class="block">
+            <h1 class="block__title">Описание вакансии</h1>
+            <div class="block-column">
+              <div class="column-group">
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Наименование профиля</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Экономическая безопасность"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Наименование вакансии (должности)
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Старший специалист"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Причина образования вакансии
+                  </h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Создание"
+                  >
+                    <option class="text">Увольнение сотрудника</option>
+                    <option class="text">Расширение штата</option>
+                    <option class="text">
+                      Уход сотрудника в декретный отпуск
+                    </option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Количество вакансий</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="10"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Адрес места работы специалиста
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="г. Нижний Новгород, ул. Академика Сахарова, 2"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Наличие материальной ответственности
+                  </h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Нет"
+                  >
+                    <option class="text">Да</option>
+                    <option class="text">Нет</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Основные задачи специалиста, цели и задачи должности
+                  </h3>
+                  <textarea
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                  ></textarea>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Должностная инструкция</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Нет"
+                  >
+                    <option class="text">Да</option>
+                    <option class="text">Нет</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Руководитель</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Константинов Михаил Ильич"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Количество подчиненных</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="999"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Перспективы карьерного роста
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Должность ведущего специалиста в течении 1-2 лет"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">График работы</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="8:00 - 17:00"
+                  >
+                    <option class="text">8:00 - 17:00</option>
+                    <option class="text">9:00 - 18:00</option>
+                    <option class="text">Гибридный график</option>
+                    <option class="text">Сменный график</option>
+                    <option class="text">Удаленная работа</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Переработки</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Не предусмотрены"
+                  >
+                    <option class="text">Предусмотрены</option>
+                    <option class="text">Не предусмотрены</option>
+                    <option class="text">По договоренности</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Командировки</h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Не предусмотрены"
+                  >
+                    <option class="text">Предусмотрены</option>
+                    <option class="text">Не предусмотрены</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Способ оформления трудовых отношений
+                  </h3>
+                  <select
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="Договор ГПХ"
+                  >
+                    <option class="text">Договор ГПХ</option>
+                    <option class="text">Договор ТД</option>
+                  </select>
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">
+                    Продолжительность испытательного срока
+                  </h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="3 месяца"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Пересмотр оплаты труда</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="1 раз в год"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Контактные данные</h3>
+                  <input
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                    placeholder="+7 (901) 234-56-78"
+                  />
+                </div>
+                <div class="newVacancy__item">
+                  <h3 class="title__newVacancy">Комментарии</h3>
+                  <textarea
+                    id="vacancy__input"
+                    name="vacancy__input"
+                    class="vacancy__input"
+                  ></textarea>
+                </div>
+              </div>
+              <button class="btn btn__prime">Сохранить</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img class="logo__img" src="./img/sberlogo.svg" alt="sberlogo" />
+      </div>
+      <div class="link__group">
+        <p>
+          <a class="footer__link" href="processingPolicy.html"
+            >Политика обработки данных</a
+          >
+        </p>
+        <p>
+          <a class="footer__link" href="cookies.html"
+            >Политика использования cookies</a
+          >
+        </p>
+        <p class="footer__link">2023 ПАО "Сбербанк"</p>
+      </div>
+    </footer>
+  </body>
+</html>

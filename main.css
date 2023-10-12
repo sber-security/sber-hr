@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "SBSans";
+  font-weight: 400;
+  src: url(/fonts/SBSans.ttf);
+}
+
+@font-face {
+  font-family: "SBSans";
+  font-weight: 600;
+  src: url(/fonts/SBSans-Semibold.ttf);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  background-image: url(/img/StartPage.svg);
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+p,
+label {
+  margin: 0;
+  font-family: "SBSans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 140%;
+  color: #121212;
+}
+
+.header {
+  display: inline-flex;
+  padding: 16px 80px;
+  align-items: start;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  height: 28px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.block__authorize {
+  display: inline-flex;
+  padding: 48px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  border-radius: 32px;
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 2px 0px rgba(18, 18, 18, 0.32);
+}
+
+.authorize__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.authorize__input-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.authorize__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.authorize__input {
+  display: flex;
+  width: 320px;
+  padding: 16px;
+  font-size: 16px;
+  align-items: flex-start;
+
+  border-radius: 32px;
+  border: 1px solid var(--gray-dark, #727272);
+  background: var(--white, #fff);
+}
+
+.authorize__submit {
+  display: flex;
+  margin-top: 16px;
+  padding: 4px 4px 4px 32px;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+
+  border-radius: 32px;
+  border: none;
+  background: var(--purple, #701bc5);
+  color: var(--white, #fff);
+  box-shadow: 0px 1px 4px 0px rgba(18, 18, 18, 0.16),
+    1px 1px 2px 0px rgba(18, 18, 18, 0.32);
+  cursor: pointer;
+}
+
+.btn__circle {
+  display: flex;
+  width: 32px;
+  padding: 20px 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: var(--white, #fff);
+}
